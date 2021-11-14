@@ -1,0 +1,24 @@
+2021-11-14 12:32:24.602  INFO 19744 --- [main] tn.esprit.Devops.Test                    : Starting Test using Java 1.8.0_271 on DESKTOP-003HN6S with PID 19744 (started by MSI in C:\Users\MSI\Desktop\projetDevops\Devops)
+2021-11-14 12:32:24.605  INFO 19744 --- [main] tn.esprit.Devops.Test                    : No active profile set, falling back to default profiles: default
+2021-11-14 12:32:25.106  INFO 19744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-14 12:32:25.152  INFO 19744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-11-14 12:32:25.611  INFO 19744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 12:32:25.670  INFO 19744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 12:32:25.812  INFO 19744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 12:32:26.045  INFO 19744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-14 12:32:26.240  INFO 19744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-14 12:32:26.255  INFO 19744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-14 12:32:26.790  INFO 19744 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-14 12:32:26.797  INFO 19744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 12:32:27.242  WARN 19744 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-14 12:32:27.801  INFO 19744 --- [main] tn.esprit.Devops.Test                    : Started Test in 3.453 seconds (JVM running for 4.175)
+2021-11-14 12:32:27.952  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************AJOUTER*************
+2021-11-14 12:32:28.037  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************UPDATE*************
+2021-11-14 12:32:28.050  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************DELETE*************
+2021-11-14 12:32:28.060  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************AJOUTER*************
+2021-11-14 12:32:28.063  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************DELETE*************
+2021-11-14 12:32:28.069  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************AJOUTER*************
+2021-11-14 12:32:28.070  INFO 19744 --- [main] tn.esprit.Devops.Test                    : *************DELETE*************
+2021-11-14 12:32:28.079  INFO 19744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 12:32:28.080  INFO 19744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-14 12:32:28.088  INFO 19744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
