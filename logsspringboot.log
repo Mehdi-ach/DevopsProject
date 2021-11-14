@@ -1,0 +1,64 @@
+2021-11-14 16:23:09.421  INFO 6324 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 6324 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-14 16:23:09.425  INFO 6324 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-14 16:23:10.398  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-14 16:23:10.423  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-11-14 16:23:11.261  INFO 6324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-14 16:23:11.272  INFO 6324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-14 16:23:11.273  INFO 6324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-14 16:23:11.400  INFO 6324 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-14 16:23:11.401  INFO 6324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1911 ms
+2021-11-14 16:23:11.798  INFO 6324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 16:23:12.102  INFO 6324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 16:23:13.703  INFO 6324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 16:23:14.578  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-14 16:23:14.745  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-14 16:23:14.847  INFO 6324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-14 16:23:15.444  INFO 6324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-14 16:23:15.500  INFO 6324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 16:23:15.547  WARN 6324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-14 16:23:15.895  WARN 6324 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-11-14 16:23:15.897  INFO 6324 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 16:23:15.900  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-14 16:23:15.918  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-14 16:23:15.920  INFO 6324 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-14 16:23:15.932  INFO 6324 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-14 16:23:15.948 ERROR 6324 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-11-14 16:23:46.373  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 10676 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-14 16:23:46.376  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-14 16:23:47.054  INFO 10676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-14 16:23:47.069  INFO 10676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-11-14 16:23:47.609  INFO 10676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-11-14 16:23:47.620  INFO 10676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-14 16:23:47.620  INFO 10676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-14 16:23:47.765  INFO 10676 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-14 16:23:47.765  INFO 10676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2021-11-14 16:23:47.970  INFO 10676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 16:23:48.027  INFO 10676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 16:23:48.188  INFO 10676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 16:23:48.313  INFO 10676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-14 16:23:48.493  INFO 10676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-14 16:23:48.511  INFO 10676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-14 16:23:48.881  INFO 10676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-14 16:23:48.892  INFO 10676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 16:23:48.939  WARN 10676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-14 16:23:49.499  INFO 10676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8079 (http) with context path '/SpringMVC'
+2021-11-14 16:23:49.508  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : Started DevopsApplication in 3.573 seconds (JVM running for 4.333)
+2021-11-14 16:26:07.445  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-14 16:26:07.528  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 16:26:07.530  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-14 16:26:07.539  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
