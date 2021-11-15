@@ -3250,3 +3250,20 @@ Caused by: java.sql.SQLSyntaxErrorException: Base 'projetdevops' inconnue
 2021-11-15 15:12:47.353  INFO 9444 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-11-15 15:12:47.357  INFO 9444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-11-15 15:12:47.365  INFO 9444 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-15 15:17:59.245  INFO 5952 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 1.8.0_144 on LAPTOP-Q7E00MNL with PID 5952 (started by 21695 in C:\Users\21695\Desktop\DevopsProject)
+2021-11-15 15:17:59.250  INFO 5952 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-15 15:18:00.269  INFO 5952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-15 15:18:00.410  INFO 5952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2021-11-15 15:18:01.806  INFO 5952 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-15 15:18:01.911  INFO 5952 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-15 15:18:02.285  INFO 5952 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-15 15:18:02.781  INFO 5952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-15 15:18:03.054  INFO 5952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-15 15:18:03.077  INFO 5952 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-15 15:18:03.837  INFO 5952 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-15 15:18:03.853  INFO 5952 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-15 15:18:04.554  WARN 5952 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-15 15:18:05.472  INFO 5952 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 6.696 seconds (JVM running for 8.214)
+2021-11-15 15:18:05.643  INFO 5952 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-15 15:18:05.646  INFO 5952 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-15 15:18:05.659  INFO 5952 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
