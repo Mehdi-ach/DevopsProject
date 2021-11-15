@@ -30,9 +30,10 @@ dockerImage = ''
                 bat """mvn clean package"""
             }
         }
-        stage('Deploy') {
+        stage('Nexus') {
             steps {
                 bat """mvn deploy"""
+            }
             }
             stage('Building our image') {
 steps { 
@@ -48,6 +49,6 @@ steps { script { docker.withRegistry( '', registryCredential) { dockerImage.push
 stage('Cleaning up') {
 steps { bat "docker rmi $registry:$BUILD_NUMBER" }
 }
-        }
+        
     }
 }
