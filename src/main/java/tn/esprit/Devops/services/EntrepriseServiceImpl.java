@@ -30,18 +30,18 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 
 	@Transactional
 	public void deleteEntrepriseById(int entrepriseId) {
-		entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).get());	
+		entrepriseRepoistory.delete(entrepriseRepoistory.findById(entrepriseId).orElse(new Entreprise()));	
 	}
 
 	
 
 	public Entreprise getEntrepriseById(int entrepriseId) {
-		return entrepriseRepoistory.findById(entrepriseId).get();	
+		return entrepriseRepoistory.findById(entrepriseId).orElse(new Entreprise());	
 	}
 	
 	public void modifierEntrpriseById (int id,Entreprise e)
 	{
-		Entreprise entreprise=entrepriseRepoistory.findById(id).get();
+		Entreprise entreprise=entrepriseRepoistory.findById(id).orElse(new Entreprise());
 		entreprise.setName(e.getName());
 		entreprise.setRaisonSocial(e.getRaisonSocial());
 		entrepriseRepoistory.save(entreprise);
