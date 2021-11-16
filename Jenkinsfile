@@ -11,7 +11,7 @@ dockerImage = ''
             steps {
                 // Get some code from a GitHub repository
                 echo 'pulling ...';
-                    git branch: 'achraf',
+                    git branch: 'Achraf',
                     url : 'https://github.com/Mehdi-ach/DevopsProject.git';
             }
         }
