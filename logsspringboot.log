@@ -1,30 +1,29 @@
-2021-11-14 16:23:09.421  INFO 6324 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 6324 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
-2021-11-14 16:23:09.425  INFO 6324 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
-2021-11-14 16:23:10.398  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-11-14 16:23:10.423  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
-2021-11-14 16:23:11.261  INFO 6324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-11-14 16:23:11.272  INFO 6324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-14 16:23:11.273  INFO 6324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
-2021-11-14 16:23:11.400  INFO 6324 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
-2021-11-14 16:23:11.401  INFO 6324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1911 ms
-2021-11-14 16:23:11.798  INFO 6324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-14 16:23:12.102  INFO 6324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-14 16:23:13.703  INFO 6324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-14 16:23:14.578  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-14 16:23:14.745  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-14 16:23:14.847  INFO 6324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2021-11-14 16:23:15.444  INFO 6324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-14 16:23:15.500  INFO 6324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 16:23:15.547  WARN 6324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-11-14 16:23:15.895  WARN 6324 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
-2021-11-14 16:23:15.897  INFO 6324 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 16:23:15.900  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-14 16:23:15.918  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-11-14 16:23:15.920  INFO 6324 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2021-11-14 16:23:15.932  INFO 6324 --- [main] ConditionEvaluationReportLoggingListener : 
+2021-11-16 15:22:17.475  INFO 19344 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 19344 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:22:17.483  INFO 19344 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 15:22:19.852  INFO 19344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:22:19.943  INFO 19344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:22:21.055  INFO 19344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-11-16 15:22:21.089  INFO 19344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-16 15:22:21.090  INFO 19344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-16 15:22:21.415  INFO 19344 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-16 15:22:21.416  INFO 19344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3791 ms
+2021-11-16 15:22:21.757  INFO 19344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:22:21.839  INFO 19344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:22:22.080  INFO 19344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:22:22.261  INFO 19344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:22:23.054  INFO 19344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:22:23.072  INFO 19344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:22:25.661  INFO 19344 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:22:25.673  INFO 19344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:22:25.695  WARN 19344 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restControlEmploye': Unsatisfied dependency expressed through field 'iemployeservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEmployeService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-16 15:22:25.696  INFO 19344 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:22:25.699  INFO 19344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:22:25.710  INFO 19344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:22:25.713  INFO 19344 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-16 15:22:25.727  INFO 19344 --- [main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-11-14 16:23:15.948 ERROR 6324 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2021-11-16 15:22:25.801 ERROR 19344 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
 ***************************
 APPLICATION FAILED TO START
@@ -32,84 +31,495 @@ APPLICATION FAILED TO START
 
 Description:
 
-Web server failed to start. Port 8081 was already in use.
+Field iemployeservice in tn.esprit.Devops.controller.RestControlEmploye required a bean of type 'tn.esprit.Devops.services.IEmployeService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
 
 Action:
 
-Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+Consider defining a bean of type 'tn.esprit.Devops.services.IEmployeService' in your configuration.
 
-2021-11-14 16:23:46.373  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 10676 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
-2021-11-14 16:23:46.376  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
-2021-11-14 16:23:47.054  INFO 10676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-11-14 16:23:47.069  INFO 10676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
-2021-11-14 16:23:47.609  INFO 10676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
-2021-11-14 16:23:47.620  INFO 10676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-11-14 16:23:47.620  INFO 10676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
-2021-11-14 16:23:47.765  INFO 10676 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
-2021-11-14 16:23:47.765  INFO 10676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
-2021-11-14 16:23:47.970  INFO 10676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-14 16:23:48.027  INFO 10676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-14 16:23:48.188  INFO 10676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-14 16:23:48.313  INFO 10676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-14 16:23:48.493  INFO 10676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-14 16:23:48.511  INFO 10676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2021-11-14 16:23:48.881  INFO 10676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-14 16:23:48.892  INFO 10676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 16:23:48.939  WARN 10676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-11-14 16:23:49.499  INFO 10676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8079 (http) with context path '/SpringMVC'
-2021-11-14 16:23:49.508  INFO 10676 --- [main] tn.esprit.Devops.DevopsApplication       : Started DevopsApplication in 3.573 seconds (JVM running for 4.333)
-2021-11-14 16:26:07.445  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2021-11-14 16:26:07.528  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 16:26:07.530  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-14 16:26:07.539  INFO 10676 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-11-14 17:34:06.811  INFO 13004 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 13004 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
-2021-11-14 17:34:06.830  INFO 13004 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
-2021-11-14 17:34:08.562  INFO 13004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-11-14 17:34:08.583  INFO 13004 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2021-11-14 17:34:10.430  INFO 13004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-14 17:34:11.905  INFO 13004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-14 17:34:14.702  INFO 13004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-14 17:34:15.478  INFO 13004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-14 17:34:16.860  INFO 13004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-14 17:34:17.208  INFO 13004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2021-11-14 17:34:18.933  INFO 13004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-14 17:34:18.956  INFO 13004 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:34:19.735  WARN 13004 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-11-14 17:34:21.025  INFO 13004 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 14.942 seconds (JVM running for 17.786)
-2021-11-14 17:34:22.659  INFO 13004 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:34:22.663  INFO 13004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-14 17:34:22.677  INFO 13004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-11-14 17:35:19.890  INFO 16764 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 16764 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
-2021-11-14 17:35:19.904  INFO 16764 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
-2021-11-14 17:35:21.123  INFO 16764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-11-14 17:35:21.151  INFO 16764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
-2021-11-14 17:35:22.283  INFO 16764 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-14 17:35:22.391  INFO 16764 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-14 17:35:22.620  INFO 16764 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-14 17:35:22.890  INFO 16764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-14 17:35:23.204  INFO 16764 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-14 17:35:23.236  INFO 16764 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2021-11-14 17:35:23.712  INFO 16764 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-14 17:35:23.728  INFO 16764 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:35:24.254  WARN 16764 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-11-14 17:35:25.328  INFO 16764 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 6.018 seconds (JVM running for 7.745)
-2021-11-14 17:35:26.075  INFO 16764 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:35:26.079  INFO 16764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-14 17:35:26.097  INFO 16764 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-11-14 17:45:00.850  INFO 7400 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 7400 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
-2021-11-14 17:45:00.866  INFO 7400 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
-2021-11-14 17:45:02.605  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-11-14 17:45:02.634  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
-2021-11-14 17:45:03.999  INFO 7400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-11-14 17:45:04.263  INFO 7400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-11-14 17:45:04.888  INFO 7400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-11-14 17:45:05.393  INFO 7400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-11-14 17:45:06.058  INFO 7400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-11-14 17:45:06.189  INFO 7400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2021-11-14 17:45:07.059  INFO 7400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-11-14 17:45:07.075  INFO 7400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:45:07.781  WARN 7400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-11-14 17:45:09.101  INFO 7400 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.125 seconds (JVM running for 12.536)
-2021-11-14 17:45:11.486  INFO 7400 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-11-14 17:45:11.491  INFO 7400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-11-14 17:45:11.521  INFO 7400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:23:33.225  INFO 18116 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 18116 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:23:33.228  INFO 18116 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 15:23:34.124  INFO 18116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:23:34.207  INFO 18116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:23:34.853  INFO 18116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-11-16 15:23:34.865  INFO 18116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-16 15:23:34.866  INFO 18116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-16 15:23:35.060  INFO 18116 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-16 15:23:35.061  INFO 18116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1755 ms
+2021-11-16 15:23:35.359  INFO 18116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:23:35.419  INFO 18116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:23:35.585  INFO 18116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:23:35.721  INFO 18116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:23:35.918  INFO 18116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:23:35.938  INFO 18116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:23:37.720  INFO 18116 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:23:37.732  INFO 18116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:23:37.744  WARN 18116 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restControlEntreprise': Unsatisfied dependency expressed through field 'iemployeservice'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEmployeService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-11-16 15:23:37.744  INFO 18116 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:23:37.747  INFO 18116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:23:37.757  INFO 18116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:23:37.759  INFO 18116 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-16 15:23:37.775  INFO 18116 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 15:23:37.810 ERROR 18116 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iemployeservice in tn.esprit.Devops.controller.RestControlEntreprise required a bean of type 'tn.esprit.Devops.services.IEmployeService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.Devops.services.IEmployeService' in your configuration.
+
+2021-11-16 15:23:59.308  INFO 9240 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 9240 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:23:59.312  INFO 9240 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 15:24:00.186  INFO 9240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:24:00.274  INFO 9240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:24:00.922  INFO 9240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-11-16 15:24:00.934  INFO 9240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-16 15:24:00.934  INFO 9240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-16 15:24:01.110  INFO 9240 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-16 15:24:01.111  INFO 9240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1730 ms
+2021-11-16 15:24:01.355  INFO 9240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:24:01.425  INFO 9240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:24:01.638  INFO 9240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:24:01.810  INFO 9240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:24:02.055  INFO 9240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:24:02.073  INFO 9240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:24:03.489  INFO 9240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:24:03.504  INFO 9240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:24:04.313  WARN 9240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:24:05.013  INFO 9240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8079 (http) with context path '/SpringMVC'
+2021-11-16 15:24:05.022  INFO 9240 --- [main] tn.esprit.Devops.DevopsApplication       : Started DevopsApplication in 6.228 seconds (JVM running for 7.168)
+2021-11-16 15:24:11.350  INFO 9240 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-16 15:24:11.406  INFO 9240 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:24:11.409  INFO 9240 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:24:11.417  INFO 9240 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:39:58.372  INFO 2036 --- [main] tn.esprit.Devops.DevopsApplication       : Starting DevopsApplication using Java 16.0.1 on DESKTOP-V6USFCR with PID 2036 (C:\Users\Mohannad\Desktop\DevopsProject\target\classes started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:39:58.375  INFO 2036 --- [main] tn.esprit.Devops.DevopsApplication       : No active profile set, falling back to default profiles: default
+2021-11-16 15:39:59.222  INFO 2036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:39:59.318  INFO 2036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:39:59.928  INFO 2036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8079 (http)
+2021-11-16 15:39:59.941  INFO 2036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-16 15:39:59.941  INFO 2036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-16 15:40:00.117  INFO 2036 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-16 15:40:00.118  INFO 2036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1678 ms
+2021-11-16 15:40:00.347  INFO 2036 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:40:00.412  INFO 2036 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:40:00.580  INFO 2036 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:40:00.703  INFO 2036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:40:00.901  INFO 2036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:40:00.919  INFO 2036 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:40:02.381  INFO 2036 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:40:02.392  INFO 2036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:40:03.060  WARN 2036 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:40:03.546  INFO 2036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8079 (http) with context path '/SpringMVC'
+2021-11-16 15:40:03.555  INFO 2036 --- [main] tn.esprit.Devops.DevopsApplication       : Started DevopsApplication in 5.709 seconds (JVM running for 6.665)
+2021-11-16 15:44:22.852  INFO 2036 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-16 15:44:22.895  INFO 2036 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:44:22.898  INFO 2036 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:44:22.907  INFO 2036 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:49:25.605  INFO 15740 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 15740 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:49:25.614  INFO 15740 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 15:49:27.104  INFO 15740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:49:27.271  INFO 15740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:49:28.455  INFO 15740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:49:28.542  INFO 15740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:49:28.814  INFO 15740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:49:29.183  INFO 15740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:49:29.470  INFO 15740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:49:29.495  INFO 15740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:49:31.721  INFO 15740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:49:31.746  INFO 15740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:49:33.495  WARN 15740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:49:34.776  INFO 15740 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.972 seconds (JVM running for 12.057)
+2021-11-16 15:49:35.220  INFO 15740 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:49:35.228  INFO 15740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:49:35.253  INFO 15740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:52:37.435  INFO 17604 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 17604 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:52:37.441  INFO 17604 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 15:52:38.996  INFO 17604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:52:39.195  INFO 17604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:52:40.429  INFO 17604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:52:40.579  INFO 17604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:52:40.837  INFO 17604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:52:41.168  INFO 17604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:52:41.522  INFO 17604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:52:41.548  INFO 17604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:52:43.600  INFO 17604 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:52:43.613  INFO 17604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:52:45.340  WARN 17604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:52:46.560  INFO 17604 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.718 seconds (JVM running for 11.807)
+2021-11-16 15:52:47.056  INFO 17604 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:52:47.061  INFO 17604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:52:47.079  INFO 17604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:54:39.915  INFO 1260 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 1260 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:54:39.923  INFO 1260 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 15:54:41.642  INFO 1260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:54:41.871  INFO 1260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 198 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:54:43.016  INFO 1260 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:54:43.101  INFO 1260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:54:43.305  INFO 1260 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:54:43.644  INFO 1260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:54:43.962  INFO 1260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:54:43.986  INFO 1260 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:54:45.759  INFO 1260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:54:45.773  INFO 1260 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:54:47.422  WARN 1260 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:54:48.654  INFO 1260 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.48 seconds (JVM running for 11.758)
+2021-11-16 15:54:49.039  INFO 1260 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:54:49.046  INFO 1260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:54:49.064  INFO 1260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 15:57:42.509  INFO 17272 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 17272 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 15:57:42.559  INFO 17272 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 15:57:43.925  INFO 17272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:57:44.059  INFO 17272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 6 JPA repository interfaces.
+2021-11-16 15:57:45.281  INFO 17272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:57:45.413  INFO 17272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:57:45.705  INFO 17272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:57:46.016  INFO 17272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 15:57:46.332  INFO 17272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 15:57:46.357  INFO 17272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 15:57:48.205  INFO 17272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:57:48.217  INFO 17272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:57:49.825  WARN 17272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:57:51.065  INFO 17272 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.432 seconds (JVM running for 11.341)
+2021-11-16 15:57:51.483  INFO 17272 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:57:51.491  INFO 17272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 15:57:51.515  INFO 17272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:17:23.438  INFO 17664 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 17664 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:17:23.485  INFO 17664 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 16:17:24.994  INFO 17664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:17:25.192  INFO 17664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:17:26.551  INFO 17664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:17:26.680  INFO 17664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:17:26.956  INFO 17664 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:17:27.283  INFO 17664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:17:27.652  INFO 17664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:17:27.692  INFO 17664 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:17:29.979  INFO 17664 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:17:29.995  INFO 17664 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:17:31.760  WARN 17664 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:17:33.042  INFO 17664 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 10.29 seconds (JVM running for 12.145)
+2021-11-16 16:17:33.548  INFO 17664 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:17:33.551  INFO 17664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:17:33.573  INFO 17664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:24:34.774  INFO 16328 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 16328 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:24:34.784  INFO 16328 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:24:36.188  INFO 16328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:24:36.332  INFO 16328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:24:37.559  INFO 16328 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:24:37.681  INFO 16328 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:24:38.010  INFO 16328 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:24:38.297  INFO 16328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:24:38.693  INFO 16328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:24:38.722  INFO 16328 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:24:40.965  INFO 16328 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:24:40.979  INFO 16328 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:24:42.608  WARN 16328 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:24:43.883  INFO 16328 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.777 seconds (JVM running for 11.513)
+2021-11-16 16:24:44.012 ERROR 16328 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8c3619e] to prepare test instance [tn.esprit.Devops.TestEmploye@79982bcc]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tn.esprit.Devops.TestEmploye': Unsatisfied dependency expressed through field 'es'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEntrepriseService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEntrepriseService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 31 common frames omitted
+
+2021-11-16 16:24:44.085  INFO 16328 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:24:44.091  INFO 16328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:24:44.120  INFO 16328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:25:18.147  INFO 9680 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 9680 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:25:18.159  INFO 9680 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:25:19.721  INFO 9680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:25:19.938  INFO 9680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 196 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:25:21.192  INFO 9680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:25:21.311  INFO 9680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:25:21.571  INFO 9680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:25:21.817  INFO 9680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:25:22.096  INFO 9680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:25:22.117  INFO 9680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:25:24.136  INFO 9680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:25:24.150  INFO 9680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:25:25.775  WARN 9680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:25:26.940  INFO 9680 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.484 seconds (JVM running for 11.556)
+2021-11-16 16:25:27.042 ERROR 9680 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8c3619e] to prepare test instance [tn.esprit.Devops.TestEmploye@477e5b69]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tn.esprit.Devops.TestEmploye': Unsatisfied dependency expressed through field 'es'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEntrepriseService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEntrepriseService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 31 common frames omitted
+
+2021-11-16 16:25:27.084  INFO 9680 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:25:27.092  INFO 9680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:25:27.119  INFO 9680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:28:24.063  INFO 7212 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 7212 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:28:24.071  INFO 7212 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:28:25.313  INFO 7212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:28:25.448  INFO 7212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:28:26.608  INFO 7212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:28:26.731  INFO 7212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:28:27.044  INFO 7212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:28:27.369  INFO 7212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:28:27.645  INFO 7212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:28:27.674  INFO 7212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:28:29.756  INFO 7212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:28:29.774  INFO 7212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:28:31.497  WARN 7212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:28:32.737  INFO 7212 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.308 seconds (JVM running for 11.419)
+2021-11-16 16:28:32.852 ERROR 7212 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8c3619e] to prepare test instance [tn.esprit.Devops.TestEmploye@1e34840f]
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tn.esprit.Devops.TestEmploye': Unsatisfied dependency expressed through field 'es'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEmployeService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[org.junit_4.13.0.v20200204-1500.jar:4.13]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.3.10.jar:5.3.10]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.Devops.services.IEmployeService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 31 common frames omitted
+
+2021-11-16 16:28:32.906  INFO 7212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:28:32.914  INFO 7212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:28:32.953  INFO 7212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:30:06.084  INFO 12060 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 12060 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:30:06.096  INFO 12060 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:30:07.588  INFO 12060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:30:07.771  INFO 12060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:30:09.040  INFO 12060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:30:09.139  INFO 12060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:30:09.594  INFO 12060 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:30:09.931  INFO 12060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:30:10.247  INFO 12060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:30:10.271  INFO 12060 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:30:12.352  INFO 12060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:30:12.364  INFO 12060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:30:14.081  WARN 12060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:30:15.325  INFO 12060 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.983 seconds (JVM running for 12.335)
+2021-11-16 16:30:16.037  INFO 12060 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 16:30:16.131  INFO 12060 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 16:30:16.302  INFO 12060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:30:16.315  INFO 12060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:30:16.341  INFO 12060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:49:24.075  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 11396 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:49:24.080  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:49:25.337  INFO 11396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:49:25.480  INFO 11396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:49:26.632  INFO 11396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:49:26.769  INFO 11396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:49:27.078  INFO 11396 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:49:27.359  INFO 11396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:49:27.700  INFO 11396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:49:27.732  INFO 11396 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:49:30.152  INFO 11396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:49:30.168  INFO 11396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:49:31.953  WARN 11396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:49:33.614  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 10.149 seconds (JVM running for 12.17)
+2021-11-16 16:49:34.126  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 16:49:34.218  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : *************get name*************
+2021-11-16 16:49:34.300  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 16:49:34.366  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 16:49:34.391  INFO 11396 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 16:49:34.428  INFO 11396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:49:34.433  INFO 11396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:49:34.458  INFO 11396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 16:50:07.531  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 10368 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 16:50:07.538  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 16:50:08.822  INFO 10368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 16:50:08.969  INFO 10368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2021-11-16 16:50:10.126  INFO 10368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 16:50:10.250  INFO 10368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 16:50:10.520  INFO 10368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 16:50:10.841  INFO 10368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 16:50:11.179  INFO 10368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 16:50:11.208  INFO 10368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 16:50:13.295  INFO 10368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 16:50:13.310  INFO 10368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:50:15.118  WARN 10368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 16:50:16.300  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.422 seconds (JVM running for 11.251)
+2021-11-16 16:50:16.884  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 16:50:16.951  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : *************get name*************
+2021-11-16 16:50:17.076  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 16:50:17.084  INFO 10368 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 16:50:17.195  INFO 10368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 16:50:17.202  INFO 10368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 16:50:17.237  INFO 10368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 17:09:37.965  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : Starting TestEmploye using Java 16.0.1 on DESKTOP-V6USFCR with PID 14332 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 17:09:37.971  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : No active profile set, falling back to default profiles: default
+2021-11-16 17:09:39.247  INFO 14332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 17:09:39.381  INFO 14332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 6 JPA repository interfaces.
+2021-11-16 17:09:40.525  INFO 14332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 17:09:40.656  INFO 14332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 17:09:40.942  INFO 14332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 17:09:41.253  INFO 14332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 17:09:41.549  INFO 14332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 17:09:41.570  INFO 14332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 17:09:43.512  INFO 14332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 17:09:43.525  INFO 14332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:09:45.302  WARN 14332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 17:09:46.481  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : Started TestEmploye in 9.177 seconds (JVM running for 11.15)
+2021-11-16 17:09:47.030  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:09:47.089  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************get name*************
+2021-11-16 17:09:47.169  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:09:47.254  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:09:47.268  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:09:47.309  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:09:47.397  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************get email*************
+2021-11-16 17:09:47.398  INFO 14332 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:09:47.450  INFO 14332 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:09:47.457  INFO 14332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 17:09:47.482  INFO 14332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 17:32:41.500  INFO 11368 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 11368 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 17:32:41.511  INFO 11368 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 17:32:43.016  INFO 11368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 17:32:43.182  INFO 11368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 6 JPA repository interfaces.
+2021-11-16 17:32:44.454  INFO 11368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 17:32:44.556  INFO 11368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 17:32:44.755  INFO 11368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 17:32:45.089  INFO 11368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 17:32:45.435  INFO 11368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 17:32:45.460  INFO 11368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 17:32:47.622  INFO 11368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 17:32:47.634  INFO 11368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:32:49.399  WARN 11368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 17:32:50.634  INFO 11368 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 9.877 seconds (JVM running for 11.73)
+2021-11-16 17:32:51.084  INFO 11368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:32:51.089  INFO 11368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 17:32:51.108  INFO 11368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 17:36:00.249  INFO 17804 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Starting DevopsApplicationTests using Java 16.0.1 on DESKTOP-V6USFCR with PID 17804 (started by Mohannad in C:\Users\Mohannad\Desktop\DevopsProject)
+2021-11-16 17:36:00.256  INFO 17804 --- [main] tn.esprit.Devops.DevopsApplicationTests  : No active profile set, falling back to default profiles: default
+2021-11-16 17:36:01.736  INFO 17804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 17:36:01.897  INFO 17804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 6 JPA repository interfaces.
+2021-11-16 17:36:03.150  INFO 17804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 17:36:03.269  INFO 17804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 17:36:03.518  INFO 17804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 17:36:03.866  INFO 17804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 17:36:04.212  INFO 17804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 17:36:04.245  INFO 17804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 17:36:06.720  INFO 17804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 17:36:06.733  INFO 17804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:36:08.550  WARN 17804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 17:36:09.930  INFO 17804 --- [main] tn.esprit.Devops.DevopsApplicationTests  : Started DevopsApplicationTests in 10.275 seconds (JVM running for 12.49)
+2021-11-16 17:36:10.419  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:36:10.486  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************get name*************
+2021-11-16 17:36:10.591  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:36:10.703  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:36:10.713  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:36:10.749  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************AJOUTER*************
+2021-11-16 17:36:10.783  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************get email*************
+2021-11-16 17:36:10.783  INFO 17804 --- [main] tn.esprit.Devops.TestEmploye             : *************DELETE*************
+2021-11-16 17:36:10.943  INFO 17804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 17:36:10.948  INFO 17804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 17:36:10.968  INFO 17804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

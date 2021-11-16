@@ -15,10 +15,11 @@
 	<name>Devops</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
-<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -43,17 +44,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<dependency>
-    <groupId>org.powermock</groupId>
-    <artifactId>powermock-module-junit4</artifactId>
-    <version>2.0.2</version>
-    <scope>test</scope>
-</dependency>
 		<dependency>
-<groupId>log4j</groupId>
-<artifactId>log4j</artifactId>
-<version>1.2.17</version>
-</dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-junit4</artifactId>
+			<version>2.0.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
 	</dependencies>
 
 
