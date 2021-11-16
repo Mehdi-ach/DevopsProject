@@ -39,3 +39,27 @@
 2021-11-16 09:34:27.015  INFO 11092 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-11-16 09:34:27.019  INFO 11092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2021-11-16 09:34:27.031  INFO 11092 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-16 09:52:53.829  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : Starting TestContrat using Java 1.8.0_261 on LAPTOP-Q7E00MNL with PID 18888 (started by 21695 in C:\Users\21695\Desktop\DevopsProject)
+2021-11-16 09:52:53.833  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : No active profile set, falling back to default profiles: default
+2021-11-16 09:52:54.505  INFO 18888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 09:52:54.566  INFO 18888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2021-11-16 09:52:55.202  INFO 18888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 09:52:55.259  INFO 18888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 09:52:55.423  INFO 18888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 09:52:55.743  INFO 18888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-16 09:52:55.960  INFO 18888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-16 09:52:55.972  INFO 18888 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-16 09:52:56.596  INFO 18888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 09:52:56.603  INFO 18888 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 09:52:57.215  WARN 18888 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 09:52:58.196  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : Started TestContrat in 4.733 seconds (JVM running for 5.688)
+2021-11-16 09:52:58.437  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************AJOUTER************
+2021-11-16 09:52:58.517  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************DELETE************
+2021-11-16 09:52:58.565  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************AJOUTER************
+2021-11-16 09:52:58.589  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************UPDATE************
+2021-11-16 09:52:58.589  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************DELETE************
+2021-11-16 09:52:58.597  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************AJOUTER************
+2021-11-16 09:52:58.601  INFO 18888 --- [main] tn.esprit.Devops.TestContrat             : ************DELETE************
+2021-11-16 09:52:58.613  INFO 18888 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 09:52:58.613  INFO 18888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-16 09:52:58.625  INFO 18888 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
