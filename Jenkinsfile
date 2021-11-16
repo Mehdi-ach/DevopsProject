@@ -1,7 +1,7 @@
 pipeline {
 environment
 {
-registry = "achrafmallek/devopsproject" 
+registry = "achrafmallek/devops" 
 registryCredential = 'dockerHub' 
 dockerImage = ''
 }
