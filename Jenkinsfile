@@ -15,7 +15,7 @@ dockerImage = ''
                     url : 'https://github.com/Mehdi-ach/DevopsProject.git';
             }
         }
-        stage('Test') {
+        stage('Unit Test') {
             steps {
                 bat """mvn test"""
             }
@@ -48,6 +48,11 @@ steps { script { docker.withRegistry( '', registryCredential) { dockerImage.push
 }
 stage('Cleaning up') {
 steps { bat "docker rmi $registry:$BUILD_NUMBER" }
+}
+        stage('email') {
+    steps {
+        mail bcc: '', body: 'Your build was done successfully and the image is on docker', cc: '', from: '', replyTo: '', subject: 'The build is done successfully', to: 'mohannad.khadhraoui@esprit.tn'
+    }
 }
         
     }
