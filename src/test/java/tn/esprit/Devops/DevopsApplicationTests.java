@@ -1,6 +1,10 @@
 package tn.esprit.Devops;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,11 +30,33 @@ class DevopsApplicationTests {
 	
 	@Test
 	public void ajouterDep() {
-	int id = ds.ajouterdep(new Departement("salah"));
-	System.out.println("**************AJOUTER**************");
+	int id = ds.ajouterdep(new Departement("Dembele"));
+	l.info("ADD FOR ADD TEST");
 	assertThat(id).isGreaterThan(0);
 	ds.deletedep(id);
-	System.out.println("**************DELETE AFTER ADD SUCCESS**************");
+	l.info("DELETED");
+	}
+	
+	@Test
+	public void verifTaille() {
+		List<Departement> departement = ds.getAlldep();
+		assertTrue(!departement.isEmpty());
+		int s = departement.size();
+		l.info("LENGTH TEST = "+s);
+	}
+	
+	@Test
+	public void Update() {
+	int id = ds.ajouterdep(new Departement("Havertz"));
+	l.info("ADD FOR UPDATE TEST");
+	Departement dep = ds.getDepById(id);
+	dep.setName("Laya");
+	String name = dep.getName();
+	l.info("NAME UPDATED TO : "+name);
+	assertEquals("Laya" ,dep.getName());
+	l.info("TEST UPDATE");
+	ds.deletedep(id);
+	l.info("DELETE UPDATE");
 	}
 
 }
